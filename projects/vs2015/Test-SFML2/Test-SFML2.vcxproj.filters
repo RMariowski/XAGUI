@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\..\..\renderers\SFML2\InputHandler.cpp">
+      <Filter>SFML2\InputHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\renderers\SFML2\Renderer.cpp">
+      <Filter>SFML2\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\renderers\SFML2\Texture.cpp">
+      <Filter>SFML2\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\renderers\SFML2\StaticText.cpp">
+      <Filter>SFML2\StaticText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\renderers\SFML2\Font.cpp">
+      <Filter>SFML2\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\..\..\renderers\SFML2\InputHandler.h">
+      <Filter>SFML2\InputHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\renderers\SFML2\Renderer.h">
+      <Filter>SFML2\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\renderers\SFML2\Texture.h">
+      <Filter>SFML2\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\renderers\SFML2\StaticText.h">
+      <Filter>SFML2\StaticText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\renderers\SFML2\Font.h">
+      <Filter>SFML2\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TestForm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SFML2">
+      <UniqueIdentifier>{de0ec331-a2db-46cf-ad05-b68898e4d761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML2\Renderer">
+      <UniqueIdentifier>{33731afb-e587-4ba9-9366-807f8d9f3ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML2\StaticText">
+      <UniqueIdentifier>{ec38c52e-6707-4fcf-9e42-23ea9e5c93a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML2\InputHandler">
+      <UniqueIdentifier>{15c7a8f0-5705-491b-9027-b718e7b0d235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML2\Font">
+      <UniqueIdentifier>{c2f5358b-5dd9-4ea0-82bb-b195b2b75764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SFML2\Texture">
+      <UniqueIdentifier>{a5baf2d4-d025-49f0-8feb-3a8043eaaede}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="XAGUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="libXAGUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="libXAGUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../include" />
+		</Compiler>
+		<Unit filename="../../include/Controls/AnalogStick.h" />
+		<Unit filename="../../include/Controls/Button.h" />
+		<Unit filename="../../include/Controls/CheckBox.h" />
+		<Unit filename="../../include/Controls/Container.h" />
+		<Unit filename="../../include/Controls/Control.h" />
+		<Unit filename="../../include/Controls/ControlBase.h" />
+		<Unit filename="../../include/Controls/Form.h" />
+		<Unit filename="../../include/Controls/HSlider.h" />
+		<Unit filename="../../include/Controls/Label.h" />
+		<Unit filename="../../include/Controls/ListBox.h" />
+		<Unit filename="../../include/Controls/MultilineTextBox.h" />
+		<Unit filename="../../include/Controls/PasswordTextBox.h" />
+		<Unit filename="../../include/Controls/PictureBox.h" />
+		<Unit filename="../../include/Controls/ProgressBar.h" />
+		<Unit filename="../../include/Controls/RadioButton.h" />
+		<Unit filename="../../include/Controls/TextBox.h" />
+		<Unit filename="../../include/Controls/TextButton.h" />
+		<Unit filename="../../include/Controls/VSlider.h" />
+		<Unit filename="../../include/Controls/Window.h" />
+		<Unit filename="../../include/Font.h" />
+		<Unit filename="../../include/Renderer.h" />
+		<Unit filename="../../include/StaticText.h" />
+		<Unit filename="../../include/Texture.h" />
+		<Unit filename="../../include/XAGUI.h" />
+		<Unit filename="../../src/Controls/AnalogStick.cpp" />
+		<Unit filename="../../src/Controls/Button.cpp" />
+		<Unit filename="../../src/Controls/CheckBox.cpp" />
+		<Unit filename="../../src/Controls/Container.cpp" />
+		<Unit filename="../../src/Controls/Control.cpp" />
+		<Unit filename="../../src/Controls/ControlBase.cpp" />
+		<Unit filename="../../src/Controls/Form.cpp" />
+		<Unit filename="../../src/Controls/HSlider.cpp" />
+		<Unit filename="../../src/Controls/Label.cpp" />
+		<Unit filename="../../src/Controls/ListBox.cpp" />
+		<Unit filename="../../src/Controls/MultilineTextBox.cpp" />
+		<Unit filename="../../src/Controls/PasswordTextBox.cpp" />
+		<Unit filename="../../src/Controls/PictureBox.cpp" />
+		<Unit filename="../../src/Controls/ProgressBar.cpp" />
+		<Unit filename="../../src/Controls/RadioButton.cpp" />
+		<Unit filename="../../src/Controls/TextBox.cpp" />
+		<Unit filename="../../src/Controls/TextButton.cpp" />
+		<Unit filename="../../src/Controls/VSlider.cpp" />
+		<Unit filename="../../src/Controls/Window.cpp" />
+		<Unit filename="../../src/Font.cpp" />
+		<Unit filename="../../src/Renderer.cpp" />
+		<Unit filename="../../src/StaticText.cpp" />
+		<Unit filename="../../src/Texture.cpp" />
+		<Unit filename="../../src/XAGUI.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

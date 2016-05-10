@@ -1,0 +1,161 @@
+# depslib dependency file v1.0
+1397239766 source:/home/xandev/XAGUI/src/Controls/AnalogStick.cpp
+	<XAGUI.h>
+
+1397239905 /home/xandev/XAGUI/include/XAGUI.h
+	<vector>
+	<xaih/xaih.h>
+	<FastDelegate/FastDelegate.h>
+	<utf8cpp/utf8.h>
+	<stdint.h>
+	<Font.h>
+	<StaticText.h>
+	<Texture.h>
+	<Renderer.h>
+	<Controls/ControlBase.h>
+	<Controls/Control.h>
+	<Controls/Container.h>
+	<Controls/Label.h>
+	<Controls/Button.h>
+	<Controls/ListBox.h>
+	<Controls/CheckBox.h>
+	<Controls/RadioButton.h>
+	<Controls/TextBox.h>
+	<Controls/PasswordTextBox.h>
+	<Controls/MultilineTextBox.h>
+	<Controls/HSlider.h>
+	<Controls/VSlider.h>
+	<Controls/PictureBox.h>
+	<Controls/AnalogStick.h>
+	<Controls/ProgressBar.h>
+	<Controls/Window.h>
+	<Controls/Form.h>
+
+1397239903 /home/xandev/XAGUI/include/xaih/xaih.h
+	<ctime>
+	<cmath>
+	<cstdio>
+	<string>
+	<cstring>
+	<cstdlib>
+	<vld.h>
+
+1389409234 /home/xandev/XAGUI/include/FastDelegate/FastDelegate.h
+	<memory.h>
+
+1393433170 /home/xandev/XAGUI/include/utf8cpp/utf8.h
+	"utf8/core.h"
+
+1360434312 /home/xandev/XAGUI/include/utf8cpp/utf8/core.h
+	<iterator>
+
+1397238635 /home/xandev/XAGUI/include/Font.h
+
+1397238517 /home/xandev/XAGUI/include/StaticText.h
+
+1389409234 /home/xandev/XAGUI/include/Texture.h
+
+1397238591 /home/xandev/XAGUI/include/Renderer.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/ControlBase.h
+
+1397241885 /home/xandev/XAGUI/include/Controls/Control.h
+
+1394198610 /home/xandev/XAGUI/include/Controls/Container.h
+
+1397240106 /home/xandev/XAGUI/include/Controls/Label.h
+
+1397239132 /home/xandev/XAGUI/include/Controls/Button.h
+
+1397238921 /home/xandev/XAGUI/include/Controls/ListBox.h
+
+1397238975 /home/xandev/XAGUI/include/Controls/CheckBox.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/RadioButton.h
+
+1397241336 /home/xandev/XAGUI/include/Controls/TextBox.h
+
+1397239164 /home/xandev/XAGUI/include/Controls/PasswordTextBox.h
+
+1397240267 /home/xandev/XAGUI/include/Controls/MultilineTextBox.h
+
+1397240392 /home/xandev/XAGUI/include/Controls/HSlider.h
+
+1397238695 /home/xandev/XAGUI/include/Controls/VSlider.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/PictureBox.h
+
+1397239766 /home/xandev/XAGUI/include/Controls/AnalogStick.h
+
+1397238760 /home/xandev/XAGUI/include/Controls/ProgressBar.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/Window.h
+
+1397238896 /home/xandev/XAGUI/include/Controls/Form.h
+
+1397239130 source:/home/xandev/XAGUI/src/Controls/Button.cpp
+	<XAGUI.h>
+
+1397239011 source:/home/xandev/XAGUI/src/Controls/CheckBox.cpp
+	<XAGUI.h>
+
+1394198630 source:/home/xandev/XAGUI/src/Controls/Container.cpp
+	<XAGUI.h>
+
+1397242020 source:/home/xandev/XAGUI/src/Controls/Control.cpp
+	<XAGUI.h>
+
+1393337627 source:/home/xandev/XAGUI/src/Controls/ControlBase.cpp
+	<XAGUI.h>
+
+1397238895 source:/home/xandev/XAGUI/src/Controls/Form.cpp
+	<XAGUI.h>
+
+1397240430 source:/home/xandev/XAGUI/src/Controls/HSlider.cpp
+	<XAGUI.h>
+
+1397240137 source:/home/xandev/XAGUI/src/Controls/Label.cpp
+	<XAGUI.h>
+
+1397238938 source:/home/xandev/XAGUI/src/Controls/ListBox.cpp
+	<XAGUI.h>
+
+1397240316 source:/home/xandev/XAGUI/src/Controls/MultilineTextBox.cpp
+	<XAGUI.h>
+
+1397242034 source:/home/xandev/XAGUI/src/Controls/PasswordTextBox.cpp
+	<XAGUI.h>
+
+1389010322 source:/home/xandev/XAGUI/src/Controls/PictureBox.cpp
+	<XAGUI.h>
+
+1397238787 source:/home/xandev/XAGUI/src/Controls/ProgressBar.cpp
+	<XAGUI.h>
+
+1387050425 source:/home/xandev/XAGUI/src/Controls/RadioButton.cpp
+	<XAGUI.h>
+
+1397241302 source:/home/xandev/XAGUI/src/Controls/TextBox.cpp
+	<XAGUI.h>
+
+1397238722 source:/home/xandev/XAGUI/src/Controls/VSlider.cpp
+	<XAGUI.h>
+
+1387624000 source:/home/xandev/XAGUI/src/Controls/Window.cpp
+	<XAGUI.h>
+
+1397238635 source:/home/xandev/XAGUI/src/Font.cpp
+	<XAGUI.h>
+
+1397238635 source:/home/xandev/XAGUI/src/Renderer.cpp
+	<XAGUI.h>
+
+1397238519 source:/home/xandev/XAGUI/src/StaticText.cpp
+	<XAGUI.h>
+
+1387008984 source:/home/xandev/XAGUI/src/Texture.cpp
+	<XAGUI.h>
+
+1397238054 source:/home/xandev/XAGUI/src/XAGUI.cpp
+	<XAGUI.h>
+

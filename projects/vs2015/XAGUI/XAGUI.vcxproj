@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android">
+      <Configuration>Release</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{953C8ECE-A169-493B-84E6-220810277D1F}</ProjectGuid>
+    <RootNamespace>XAGUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>arm-linux-androideabi-4.8</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>XAGUI.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>XAGUI.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>XAGUI.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>XAGUI.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Controls\AnalogStick.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\ComboBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Container.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Control.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\ControlBase.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Button.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\CheckBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Form.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\ScrollableControl.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Slider.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Label.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\ListBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\MultilineTextBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\PasswordTextBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\PictureBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\ProgressBar.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\RadioButton.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\ScrollBar.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\TabControl.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\TabPage.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\TextBox.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\TextButton.cpp" />
+    <ClCompile Include="..\..\..\src\Controls\Window.cpp" />
+    <ClCompile Include="..\..\..\src\Font.cpp" />
+    <ClCompile Include="..\..\..\src\Layouts\HorizontalLayout.cpp" />
+    <ClCompile Include="..\..\..\src\Layouts\Layout.cpp" />
+    <ClCompile Include="..\..\..\src\Layouts\VerticalLayout.cpp" />
+    <ClCompile Include="..\..\..\src\Renderer.cpp" />
+    <ClCompile Include="..\..\..\src\StaticText.cpp" />
+    <ClCompile Include="..\..\..\src\Texture.cpp" />
+    <ClCompile Include="..\..\..\src\XAGUI.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Android'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\Controls\AnalogStick.h" />
+    <ClInclude Include="..\..\..\include\Controls\Button.h" />
+    <ClInclude Include="..\..\..\include\Controls\CheckBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\ComboBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\Container.h" />
+    <ClInclude Include="..\..\..\include\Controls\Control.h" />
+    <ClInclude Include="..\..\..\include\Controls\ControlBase.h" />
+    <ClInclude Include="..\..\..\include\Controls\Form.h" />
+    <ClInclude Include="..\..\..\include\Controls\ScrollableControl.h" />
+    <ClInclude Include="..\..\..\include\Controls\Slider.h" />
+    <ClInclude Include="..\..\..\include\Controls\Label.h" />
+    <ClInclude Include="..\..\..\include\Controls\ListBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\MultilineTextBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\PasswordTextBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\PictureBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\ProgressBar.h" />
+    <ClInclude Include="..\..\..\include\Controls\RadioButton.h" />
+    <ClInclude Include="..\..\..\include\Controls\ScrollBar.h" />
+    <ClInclude Include="..\..\..\include\Controls\TabControl.h" />
+    <ClInclude Include="..\..\..\include\Controls\TabPage.h" />
+    <ClInclude Include="..\..\..\include\Controls\TextBox.h" />
+    <ClInclude Include="..\..\..\include\Controls\TextButton.h" />
+    <ClInclude Include="..\..\..\include\Controls\Window.h" />
+    <ClInclude Include="..\..\..\include\Font.h" />
+    <ClInclude Include="..\..\..\include\Layouts\HorizontalLayout.h" />
+    <ClInclude Include="..\..\..\include\Layouts\Layout.h" />
+    <ClInclude Include="..\..\..\include\Layouts\VerticalLayout.h" />
+    <ClInclude Include="..\..\..\include\Renderer.h" />
+    <ClInclude Include="..\..\..\include\StaticText.h" />
+    <ClInclude Include="..\..\..\include\Texture.h" />
+    <ClInclude Include="..\..\..\include\XAGUI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

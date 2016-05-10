@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../include/Controls/Control.h" open="0" top="0" tabpos="0">
+		<Cursor position="3657" topLine="92" />
+	</File>
+	<File name="../../src/Controls/AnalogStick.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="141" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

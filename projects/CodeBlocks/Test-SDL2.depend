@@ -1,0 +1,492 @@
+# depslib dependency file v1.0
+1397242085 source:/home/xandev/XAGUI/projects/vs2012/Test-SDL2/Main.cpp
+	"Main.h"
+
+1397241501 /home/xandev/XAGUI/projects/vs2012/Test-SDL2/Main.h
+	<XAGUI.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/Font.h>
+	<SDL2/Texture.h>
+	<SDL2/StaticText.h>
+	<SDL2/Renderer.h>
+	<SDL2/InputHandler.h>
+	"TestForm.h"
+
+1397239905 /home/xandev/XAGUI/include/XAGUI.h
+	<vector>
+	<xaih/xaih.h>
+	<FastDelegate/FastDelegate.h>
+	<utf8cpp/utf8.h>
+	<stdint.h>
+	<Font.h>
+	<StaticText.h>
+	<Texture.h>
+	<Renderer.h>
+	<Controls/ControlBase.h>
+	<Controls/Control.h>
+	<Controls/Container.h>
+	<Controls/Label.h>
+	<Controls/Button.h>
+	<Controls/ListBox.h>
+	<Controls/CheckBox.h>
+	<Controls/RadioButton.h>
+	<Controls/TextBox.h>
+	<Controls/PasswordTextBox.h>
+	<Controls/MultilineTextBox.h>
+	<Controls/HSlider.h>
+	<Controls/VSlider.h>
+	<Controls/PictureBox.h>
+	<Controls/AnalogStick.h>
+	<Controls/ProgressBar.h>
+	<Controls/Window.h>
+	<Controls/Form.h>
+
+1397239903 /home/xandev/XAGUI/include/xaih/xaih.h
+	<ctime>
+	<cmath>
+	<cstdio>
+	<string>
+	<cstring>
+	<cstdlib>
+	<vld.h>
+
+1329255148 /home/xandev/XAGUI/dependencies/include//vld.h
+	"vld_def.h"
+	<windows.h>
+
+1329255148 /home/xandev/XAGUI/dependencies/include//vld_def.h
+
+1389409234 /home/xandev/XAGUI/include/FastDelegate/FastDelegate.h
+	<memory.h>
+
+1393433170 /home/xandev/XAGUI/include/utf8cpp/utf8.h
+	"utf8/core.h"
+
+1360434312 /home/xandev/XAGUI/include/utf8cpp/utf8/core.h
+	<iterator>
+
+1397238635 /home/xandev/XAGUI/include/Font.h
+
+1397238517 /home/xandev/XAGUI/include/StaticText.h
+
+1389409234 /home/xandev/XAGUI/include/Texture.h
+
+1397238591 /home/xandev/XAGUI/include/Renderer.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/ControlBase.h
+
+1397241885 /home/xandev/XAGUI/include/Controls/Control.h
+
+1394198610 /home/xandev/XAGUI/include/Controls/Container.h
+
+1397240106 /home/xandev/XAGUI/include/Controls/Label.h
+
+1397239132 /home/xandev/XAGUI/include/Controls/Button.h
+
+1397238921 /home/xandev/XAGUI/include/Controls/ListBox.h
+
+1397238975 /home/xandev/XAGUI/include/Controls/CheckBox.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/RadioButton.h
+
+1397241336 /home/xandev/XAGUI/include/Controls/TextBox.h
+
+1397239164 /home/xandev/XAGUI/include/Controls/PasswordTextBox.h
+
+1397240267 /home/xandev/XAGUI/include/Controls/MultilineTextBox.h
+
+1397240392 /home/xandev/XAGUI/include/Controls/HSlider.h
+
+1397238695 /home/xandev/XAGUI/include/Controls/VSlider.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/PictureBox.h
+
+1397239766 /home/xandev/XAGUI/include/Controls/AnalogStick.h
+
+1397238760 /home/xandev/XAGUI/include/Controls/ProgressBar.h
+
+1389409234 /home/xandev/XAGUI/include/Controls/Window.h
+
+1397238896 /home/xandev/XAGUI/include/Controls/Form.h
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config.h
+	"SDL_platform.h"
+	"SDL_config_premake.h"
+	"SDL_config_windows.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_minimal.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/begin_code.h
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/close_code.h
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config_windows.h
+	"SDL_platform.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config_iphoneos.h
+	"SDL_platform.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config_psp.h
+	"SDL_platform.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_config_minimal.h
+	"SDL_platform.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384792 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384855 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1389384891 /home/xandev/XAGUI/dependencies/include//SDL2/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1397241009 /home/xandev/XAGUI/renderers//SDL2/Font.h
+
+1397240868 /home/xandev/XAGUI/renderers//SDL2/Texture.h
+
+1397240891 /home/xandev/XAGUI/renderers//SDL2/StaticText.h
+
+1397241484 /home/xandev/XAGUI/renderers//SDL2/Renderer.h
+
+1397240848 /home/xandev/XAGUI/renderers//SDL2/InputHandler.h
+
+1397240794 /home/xandev/XAGUI/projects/vs2012/TestForm.h
+
+1397240988 source:/home/xandev/XAGUI/renderers/SDL2/Font.cpp
+	"Main.h"
+
+1397240838 source:/home/xandev/XAGUI/renderers/SDL2/InputHandler.cpp
+	"Main.h"
+
+1397241680 source:/home/xandev/XAGUI/renderers/SDL2/Renderer.cpp
+	"Main.h"
+
+1397240947 source:/home/xandev/XAGUI/renderers/SDL2/StaticText.cpp
+	"Main.h"
+
+1397240912 source:/home/xandev/XAGUI/renderers/SDL2/Texture.cpp
+	"Main.h"
+

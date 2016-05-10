@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XAGUI.cpp" />
+    <ClCompile Include="..\..\..\src\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StaticText.cpp">
+      <Filter>StaticText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\AnalogStick.cpp">
+      <Filter>Controls\AnalogStick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Button.cpp">
+      <Filter>Controls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\CheckBox.cpp">
+      <Filter>Controls\CheckBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Form.cpp">
+      <Filter>Controls\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Label.cpp">
+      <Filter>Controls\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\RadioButton.cpp">
+      <Filter>Controls\RadioButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\TextBox.cpp">
+      <Filter>Controls\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Window.cpp">
+      <Filter>Controls\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\ControlBase.cpp">
+      <Filter>Controls\ControlBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Control.cpp">
+      <Filter>Controls\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\PictureBox.cpp">
+      <Filter>Controls\PictureBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Container.cpp">
+      <Filter>Controls\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\ProgressBar.cpp">
+      <Filter>Controls\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\MultilineTextBox.cpp">
+      <Filter>Controls\MultilineTextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\PasswordTextBox.cpp">
+      <Filter>Controls\PasswordTextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\ListBox.cpp">
+      <Filter>Controls\ListBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\TabControl.cpp">
+      <Filter>Controls\TabControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\ScrollBar.cpp">
+      <Filter>Controls\ScrollBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\Slider.cpp">
+      <Filter>Controls\Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\TabPage.cpp">
+      <Filter>Controls\TabPage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\ComboBox.cpp">
+      <Filter>Controls\ComboBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\ScrollableControl.cpp">
+      <Filter>Controls\ScrollableControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Layouts\Layout.cpp">
+      <Filter>Layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Layouts\HorizontalLayout.cpp">
+      <Filter>Layouts\Horizontal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Layouts\VerticalLayout.cpp">
+      <Filter>Layouts\Vertical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Controls\TextButton.cpp">
+      <Filter>Controls\TextButton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{bda452ba-b65b-4b79-a5ed-1d1830cb6266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Button">
+      <UniqueIdentifier>{d5b8d1e2-a0e4-428f-bd4f-c51cde160917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\CheckBox">
+      <UniqueIdentifier>{ad6a5ad7-6702-4db9-ba32-b3db44fc32ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Form">
+      <UniqueIdentifier>{57742349-afee-462a-bf27-75ae91b2178d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Label">
+      <UniqueIdentifier>{819bc733-147e-47a1-b942-c60ba96a10d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\PictureBox">
+      <UniqueIdentifier>{82b3ae7d-c958-4f08-a2dc-3e29be56a0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\TextBox">
+      <UniqueIdentifier>{5072e598-68b5-484b-94f7-9ec9827ec91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Window">
+      <UniqueIdentifier>{f744e8e0-94b3-481a-83cd-f5acfb168cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{6427437f-b9b3-448e-8605-fdcbd2935b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{3fa178f1-bf75-46e7-b404-0733261a2425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StaticText">
+      <UniqueIdentifier>{4a6c675c-0c25-4837-a40b-1b49d3f65d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{d7bcf5e9-b2e1-444a-ab02-a57180291af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\AnalogStick">
+      <UniqueIdentifier>{84571941-6752-44a9-bc03-8c948fada642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\RadioButton">
+      <UniqueIdentifier>{b596ec73-51f1-4e18-82e4-0d6a5d17ae07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ControlBase">
+      <UniqueIdentifier>{81ce103b-c209-48ad-8d4d-ea46803beb96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Control">
+      <UniqueIdentifier>{a48199f6-2162-45f2-a872-81edb29168a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Container">
+      <UniqueIdentifier>{d8bcabb9-fa30-498f-b85b-cfe7cf253c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ProgressBar">
+      <UniqueIdentifier>{ac5249a8-7ad1-45b0-8920-e05d2ab84193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\MultilineTextBox">
+      <UniqueIdentifier>{91023700-c193-47a2-bb7d-06442114e6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\PasswordTextBox">
+      <UniqueIdentifier>{171f1517-b934-45cb-aa2f-cc6a4dcb66b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ListBox">
+      <UniqueIdentifier>{e33b5bda-86f1-429c-97b4-ec50db702142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\TabControl">
+      <UniqueIdentifier>{134284db-028d-4f08-ac60-8a5609a32a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ScrollBar">
+      <UniqueIdentifier>{bfbc5974-d993-40f3-a8cc-c1702003b692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\Slider">
+      <UniqueIdentifier>{3c02d20f-f303-4c78-a705-104817d7a875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\TabPage">
+      <UniqueIdentifier>{a50c129f-9953-4850-ac8f-49e8e884b4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ComboBox">
+      <UniqueIdentifier>{ed0f899c-90e3-483c-b0eb-b8ef1cd03de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\ScrollableControl">
+      <UniqueIdentifier>{83de68cc-a535-4e5d-afcd-26b08e7b6987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layouts">
+      <UniqueIdentifier>{3f15b434-16f8-409f-ab45-9075c14f1077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layouts\Horizontal">
+      <UniqueIdentifier>{740fece8-92c9-440b-8ae1-9bc16cec4147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layouts\Vertical">
+      <UniqueIdentifier>{e0cc2cf6-51e0-4bc4-af88-eb4ba90f5aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controls\TextButton">
+      <UniqueIdentifier>{a1eb6a7f-3d8c-4aa5-b56b-f8709e40c987}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\XAGUI.h" />
+    <ClInclude Include="..\..\..\include\Font.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\ControlBase.h">
+      <Filter>Controls\ControlBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\StaticText.h">
+      <Filter>StaticText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Control.h">
+      <Filter>Controls\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Form.h">
+      <Filter>Controls\Form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\PictureBox.h">
+      <Filter>Controls\PictureBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Button.h">
+      <Filter>Controls\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Window.h">
+      <Filter>Controls\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\CheckBox.h">
+      <Filter>Controls\CheckBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Label.h">
+      <Filter>Controls\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\RadioButton.h">
+      <Filter>Controls\RadioButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Container.h">
+      <Filter>Controls\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\AnalogStick.h">
+      <Filter>Controls\AnalogStick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\ProgressBar.h">
+      <Filter>Controls\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\TextBox.h">
+      <Filter>Controls\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\PasswordTextBox.h">
+      <Filter>Controls\PasswordTextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\MultilineTextBox.h">
+      <Filter>Controls\MultilineTextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\ListBox.h">
+      <Filter>Controls\ListBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\TabControl.h">
+      <Filter>Controls\TabControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\ScrollBar.h">
+      <Filter>Controls\ScrollBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\Slider.h">
+      <Filter>Controls\Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\TabPage.h">
+      <Filter>Controls\TabPage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\ComboBox.h">
+      <Filter>Controls\ComboBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\ScrollableControl.h">
+      <Filter>Controls\ScrollableControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Layouts\Layout.h">
+      <Filter>Layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Layouts\HorizontalLayout.h">
+      <Filter>Layouts\Horizontal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Layouts\VerticalLayout.h">
+      <Filter>Layouts\Vertical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\Controls\TextButton.h">
+      <Filter>Controls\TextButton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
